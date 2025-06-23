@@ -23,7 +23,7 @@ app.register_blueprint(auth)
 
 
 # Configuration
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your_api_key"
 MODEL = "llama3-8b-8192"
 EXCEL_PATH = Path("C:\\Users\\Nitin\\Documents\\programming\\bangaloregroundwaterchatbot\\backend\\venv\\data\\Bangalore-urban.xlsx")
 
