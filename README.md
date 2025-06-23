@@ -5,20 +5,20 @@ A web-based chatbot application that provides users with information and insight
 
 ## Features
 
-- **Interactive Chat Interface:** Users can ask questions about groundwater levels, trends, and comparisons for different locations in Bangalore[1][2].
-- **Data-Driven Responses:** The chatbot leverages an Excel dataset of Bangalore urban groundwater data to generate accurate, context-aware answers[2][3].
-- **User Authentication:** Secure login and registration system with JWT token-based authentication[4][5].
-- **Conversation History:** Users can view and resume previous conversations, stored securely in a MongoDB database[1][2][6].
-- **Analytics Dashboard:** Displays usage statistics and response performance metrics[1][2].
-- **Responsive Design:** Clean, modern UI with responsive layouts for desktop and mobile[7].
+- **Interactive Chat Interface:** Users can ask questions about groundwater levels, trends, and comparisons for different locations in Bangalore.
+- **Data-Driven Responses:** The chatbot leverages an Excel dataset of Bangalore urban groundwater data to generate accurate, context-aware answers.
+- **User Authentication:** Secure login and registration system with JWT token-based authentication.
+- **Conversation History:** Users can view and resume previous conversations, stored securely in a MongoDB database.
+- **Analytics Dashboard:** Displays usage statistics and response performance metrics.
+- **Responsive Design:** Clean, modern UI with responsive layouts for desktop and mobile.
 
 ## Technology Stack
 
-- **Frontend:** React.js, CSS (responsive design), state management with hooks[1][7].
-- **Backend:** Flask (Python), REST API for chat, authentication, and data retrieval[2][5].
-- **Database:** MongoDB for user accounts and conversation history[6].
-- **AI Integration:** Groq API with LLM (Llama3-8b-8192) for natural language understanding and response generation[2].
-- **Data Processing:** Pandas for data cleaning, filtering, and querying[3].
+- **Frontend:** React.js, CSS (responsive design), state management with hooks.
+- **Backend:** Flask (Python), REST API for chat, authentication, and data retrieval.
+- **Database:** MongoDB for user accounts and conversation history.
+- **AI Integration:** Groq API with LLM (Llama3-8b-8192) for natural language understanding and response generation.
+- **Data Processing:** Pandas for data cleaning, filtering, and querying.
 
 ## How It Works
 
