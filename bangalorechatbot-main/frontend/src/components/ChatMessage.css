@@ -1,0 +1,97 @@
+/* ChatMessage.css */
+.message {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  max-width: 85%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message.user {
+  background-color: #e3f2fd;
+  margin-left: auto;
+}
+
+.message.bot {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  margin-right: auto;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.avatar {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.sender {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #666;
+  margin-right: 10px;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.badge.combined {
+  background-color: #e6f7ff;
+  color: #0078d4;
+  border: 1px solid #0078d4;
+}
+
+.badge.groq {
+  background-color: #f0f0f0;
+  color: #555;
+  border: 1px solid #aaa;
+}
+
+.message-content {
+  line-height: 1.5;
+}
+
+.message-content p {
+  margin: 8px 0;
+}
+
+.message-content p:first-child {
+  margin-top: 0;
+}
+
+.message-content p:last-child {
+  margin-bottom: 0;
+}
+
+.data-section {
+  margin-top: 15px;
+}
+
+.data-toggle {
+  background-color: transparent;
+  border: 1px solid #0078d4;
+  color: #0078d4;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.data-toggle:hover {
+  background-color: #f0f8ff;
+}

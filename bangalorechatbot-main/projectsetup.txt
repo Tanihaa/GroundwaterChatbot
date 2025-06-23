@@ -1,0 +1,66 @@
+Directory Structure
+Create the following directory structure:
+bangalore-groundwater-assistant/
+├── backend/
+│   ├── app.py
+│   ├── auth.py
+│   ├── config.py
+│   ├── db.py
+│   ├── data_processing.py
+│   ├── requirements.txt
+│   └── data/
+│       └── Bangalore-urban.xlsx
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── App.js
+│       ├── App.css
+│       ├── index.js
+│       └── components/
+│           ├── ChatMessage.js
+│           ├── ChatMessage.css
+│           ├── DataDisplay.js
+│           ├── DataDisplay.css
+│           ├── Login.js
+│           └── Register.js
+-------------------------------------
+
+Backend Setup
+
+1. Create a virtual environment and install requirements:
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+
+2. Create the requirements.txt file with:
+flask
+flask-cors
+flask-bcrypt
+flask-jwt-extended
+pandas
+openpyxl
+requests
+pymongo
+
+3. Copy your Excel file to the backend/data/ directory.
+
+4. Run the backend server:
+python app.py
+
+Frontend Setup
+
+1. Create a new React app:
+npx create-react-app frontend
+cd frontend
+
+
+2. Install required dependencies:
+npm install axios
+
+3. Copy the provided component files to their respective directories.
+
+4. Start the React development server:
+npm start

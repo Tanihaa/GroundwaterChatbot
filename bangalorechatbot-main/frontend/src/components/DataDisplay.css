@@ -1,0 +1,38 @@
+/* DataDisplay.css */
+.data-display {
+    margin-top: 10px;
+    overflow-x: auto;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .data-display table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+  
+  .data-display th {
+    background-color: #e0e0e0;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ccc;
+  }
+  
+  .data-display td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    word-break: break-word;
+  }
+  
+  .data-display tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-display.empty {
+    padding: 20px;
+    text-align: center;
+    color: #888;
+  }
